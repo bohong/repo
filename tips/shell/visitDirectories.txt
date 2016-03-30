@@ -1,0 +1,6 @@
+
+for d in `find . -type d | grep -v .git`
+do
+    touch $d/.gitignore
+done
+
