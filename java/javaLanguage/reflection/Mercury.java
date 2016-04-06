@@ -28,11 +28,11 @@ public class Mercury {
             System.out.println("native_pass_required_info called");
         }
 
-	public int native_start_lte_band_locking(int bandIndex){
+	public Integer native_start_lte_band_locking(Integer bandIndex){
             System.out.println("native_start_lte_band_locking called");
             return 99;
         }
-	public int native_stop_lte_band_locking(){
+	public Integer native_stop_lte_band_locking(){
             System.out.println("native_stop_lte_band_locking called");
             return 999;
         }
